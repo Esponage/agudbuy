@@ -9,6 +9,7 @@ ReactDOM.render((
   <Router>
     <Route path="/" component={App}>
       <IndexRoute component={Index} />
+      <Route path="index" component={Index} />
     </Route>
   </Router>
 ), document.getElementById('application'));
