@@ -3,7 +3,7 @@ import React from 'react';
 var Index = React.createClass({
   render() {
     return (
-<div>
+<div className="main">
       <div className="nav-container">
         <nav id="primary_nav_wrap">
           <ul>
@@ -23,7 +23,6 @@ var Index = React.createClass({
           </nav>
           </div>
 
-          <div className="container">
 
 
           <div className="photo-container">
@@ -31,9 +30,23 @@ var Index = React.createClass({
             <div className="photo-two"></div>
             <div className="photo-three"></div>
             <div className="photo-four"></div>
+            <div className="photo-five"></div>
+            <div className="photo-six"></div>
+            <div className="photo-seven"></div>
+
           </div>
 
+          <div className="container">
+
           <div className="general-info">
+
+          </div>
+
+          <div className="quick-info">
+
+          </div>
+
+          <div className="footer-zone">
 
           </div>
 
